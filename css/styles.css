@@ -33,9 +33,13 @@ h1,h2,h3,p{
 
 .container{
     max-width: 1200px;
-    padding: 94px 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
+.section{
+    padding: 94px 0;
+}
+
 .header{
     background: var(--white--color);
     border-bottom: 1px solid  var(--border--color) ;
@@ -179,7 +183,7 @@ text-align: center;
     letter-spacing: 0.03em;
     color: var(--text--color);
 }
-.service__container{
+.service{
     padding-top: 0;
 }
 
